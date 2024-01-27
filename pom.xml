@@ -55,8 +55,13 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>5.0.0</version>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.1.0</version> <!-- Use the latest version available -->
+		</dependency>
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>5.5.13.2</version> <!-- You can use a different version based on your requirements -->
 		</dependency>
 	</dependencies>
 
